@@ -8,7 +8,7 @@
 # Site settings
 title: 大东的博客
 brief-intro: PHP Development Engineer
-baseurl: "http://www.qiehe.net" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jourdon.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
