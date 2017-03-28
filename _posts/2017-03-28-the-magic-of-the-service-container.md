@@ -31,6 +31,10 @@ Laravel 的核心就是一个 `IoC 容器`，根据文档，称其为“`服务�
 
 我们把一个“超人”作为一个类，
 
+
+
+
+
 ```
 class Superman {}
 ```
@@ -55,7 +59,7 @@ class Power {
 }
 ```
 这时候我们回过头，修改一下之前的“超人”类，让一个“超人”创建的时候被赋予一个超能力：
-```
+```php
 class Superman
 {
     protected $power;
