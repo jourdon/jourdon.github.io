@@ -21,6 +21,10 @@ author: 大东
 delete from table_name where 条件
 ```
 
+
+
+
+
 删除数据后，数据表占用的空间大小不会变。
 
 （2）不跟条件直接delete的时候。如：

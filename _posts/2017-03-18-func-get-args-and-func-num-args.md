@@ -27,6 +27,10 @@ foo(‘hello’, ‘world’, ‘again’);  /*输出 arg1: hello  arg2: world  
 ```
 这个函数可以把你传入的所有参数全部都放在一个数组中，然后再输出。这样对我们以后编写php程序是不是又简单了许多呢？既然说到了`func_get_args`函数,那么我们就不能不提下`func_num_args`函数和`func_get_arg`函数了
 
+
+
+
+
 `func_nums_args`——统计传入函数参数的个数
 
 `func_get_arg`——根据索引取得某一个参数，这里的索引数传入函数的参数
