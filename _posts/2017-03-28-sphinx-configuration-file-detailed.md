@@ -11,7 +11,7 @@ author: 大东
 
 
 ##sphinx配置文件详解
-```php
+```
 ## 数据源src1
 source src1
 {

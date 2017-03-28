@@ -12,7 +12,7 @@ author: 大东
 
 通过互联网激活PHPStorm 2016.3：
 
-```php
+```
 http://jetbrains.tencent.click
 http://172.245.22.235:1017
 http://idea.imsxm.com/
