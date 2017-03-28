@@ -11,11 +11,11 @@ author: 大东
 
 `func_get_args()`—返回的是一个数组，这个数组内的每一项都是函数的一个参数。根据php手册我们给出函数的用法格式。
 
-```
+```php
 array func_get_args ( void )
 ```
 如果只是在这里笼统的阐述，可能大家不能够真正的了解这个函数，那么就让我们通过事例来看下这个函数的用法。
-```
+```php
 function foo() {     
  $args = func_get_args();   
  foreach ($args as $k => $v) {  echo “arg”.($k+1).”: $v\n”;
@@ -32,7 +32,7 @@ foo(‘hello’, ‘world’, ‘again’);  /*输出 arg1: hello  arg2: world  
 `func_get_arg`——根据索引取得某一个参数，这里的索引数传入函数的参数
 
 我们就以php手册上的例子来看吧
-```apacheconfig
+```php
 <?
  function foo(){    $numargs = func_num_args();    echo “Number of arguments: $numargs\n“;
 }
@@ -42,7 +42,7 @@ foo(1, 2, 3);    // Prints ‘Number of arguments: 3′?>
  
 
 上面的例子很明白的给我们展示了`func_num_args`函数就是活的传入函数的参数
-```apacheconfig
+```php
 <?php
     function foo()
     {         $numargs = func_num_args();         echo "Number of arguments: $numargs<br />\n";         if ($numargs >= 2) {         echo "Second argument is: " . func_get_arg(1) . "<br />\n";
