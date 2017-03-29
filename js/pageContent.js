@@ -164,26 +164,3 @@ function isAndroidWechatBrowser() {
     var ua = navigator.userAgent.toLowerCase()
     return /micromessenger/.test(ua) && /android/.test(ua2)
 }
-
-/**
- *赞赏
- */
-$('.btn-success').click(function(){
-    if($(".pay-content").css("display")=="none"){
-        $(".pay-content").show();
-    }else{
-        $(".pay-content").hide();
-    }
-});
-$('.zhifubao').click(function(){
-    if($("#zhifubao").css("display")=="none"){
-        $("#zhifubao").show();
-        $("#wechat").hide();
-    }
-});
-$('.wechat').click(function(){
-    if($("#wechat").css("display")=="none"){
-        $("#wechat").show();
-        $("#zhifubao").hide();
-    }
-});
