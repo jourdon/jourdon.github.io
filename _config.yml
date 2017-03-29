@@ -15,13 +15,13 @@ url: "https://jourdon.github.io" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
 
 # other links
-#twitter_username: gaohaoyang126
-#facebook_username: gaohaoyang.water
+#twitter_username: jourdon
+#facebook_username: jourdon
 github_username:  jourdon
 email: admin@qiehe.net
-#weibo_username: 3115521wh
-#zhihu_username: gaohaoyang
-#linkedIn_username: gaohaoyang
+#weibo_username: jourdon
+zhihu_username: wd666
+#linkedIn_username: jourdon
 #dribbble_username:
 
 description_footer: 本站记录我的PHP开发之路！
@@ -30,8 +30,8 @@ description_footer: 本站记录我的PHP开发之路！
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
 #duoshuo_shortname: #hygblog
-disqus_shortname: wangdz
-#uyan_shortname: 2128407
+#disqus_shortname: wangdz
+changyan_shortname: wd666
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
