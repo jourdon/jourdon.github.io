@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 茄盒网 - 大东的博客
-description: PHP技术博客，记录PHP学习笔记，分享PHP技术心得。
+title: 茄盒网
+description: 大东的PHP技术博客，记录学习笔记，分享技术心得。
 brief-intro: PHP Development Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jourdon.github.io" # the base hostname & protocol for your site
