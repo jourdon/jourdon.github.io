@@ -10,7 +10,7 @@ title: 茄盒网
 description: 大东的PHP技术博客，记录学习笔记，分享技术心得。
 brief-intro: PHP Development Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jourdon.github.io" # the base hostname & protocol for your site
+url: "https://www.qiehe.net" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
