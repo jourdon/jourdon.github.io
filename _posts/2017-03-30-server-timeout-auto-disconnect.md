@@ -16,16 +16,19 @@ author: 大东
 
 示例环境：服务器：centos7
 
-1. 首先备份配置文件,养成`备份配置项`的好习惯
+首先备份配置文件,养成`备份配置项`的好习惯
 
 
 ```
     [root@sdfsef /]cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak 
 ```
 
-2. 编辑配置
+ 编辑配置
+
 
 ![](http://www.qiehe.net/image/20170330150359.jpg)
+
+
 
 ```
     [root@sdfsef /]vim /etc/ssh/sshd_config    
@@ -34,7 +37,8 @@ author: 大东
 
 ```
                                         
-3. 重启ssh服务；
+重启ssh服务；
+
 ``` 
     [root@sdfsef /]service sshd reload;
     [root@sdfsef /]/etc/init.d/sshd restart;
