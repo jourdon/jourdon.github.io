@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "解决ssh链接服务器超时自动断开的问题"
-categories: Mysql
-tags: Mysql
+categories: Linux
+tags: Linux Centos
 author: 大东
 ---
 
@@ -14,7 +14,7 @@ author: 大东
 
 事实上是超时时间是可以设置的。
 
-示例环境：服务器：centos6.5
+示例环境：服务器：centos7
 
 1. 首先备份配置文件,养成`备份配置项`的好习惯
 
