@@ -35,7 +35,7 @@ ul, ol {
 #main {
 	width:1000px; 
 	margin:0 auto;
-	background:url(images/main-bg.jpg) no-repeat left top;
+	background:url(../images/main-bg.jpg) no-repeat left top;
 	font-size:.9375em;
 }
 
