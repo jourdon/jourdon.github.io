@@ -1,8 +1,5 @@
 <footer class="site-footer">
-
-
     <div class="wrapper">
-
         <p class="description">
             {% if site.description_footer %} {{site.description_footer}} {% endif %}
         </p>
@@ -31,3 +28,30 @@
     </div>
 </footer>
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{% if site.baidu_tongji_id %}
+<script>
+    // 百度统计代码
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?{{site.baidu_tongji_id}}";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script>
+    //百度自动推送工具代码
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+{% endif %}
