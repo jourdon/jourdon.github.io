@@ -32,7 +32,7 @@ PHP后端开发工程师。
 
 ## 友情链接
 
-[茄盒网](http://www.qiehe.net) \| 
+[茄盒网](http://www.qiehe.net) \| [Laravel 5.1速查表](http://www.qiehe.net/search/index.html) \
 
 ## Comments
 
