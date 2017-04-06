@@ -1,22 +1,19 @@
-{% if site.duoshuo_shortname %}
-<!-- 多说评论框 start -->
-<div class="ds-thread" data-thread-key="{{ site.url }}{{ page.url }}" data-title="{{page.title}}" data-url="{{ site.url }}{{ page.url }}"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    var duoshuoQuery = {
-        short_name: "{{site.duoshuo_shortname}}"
-    };
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';
-        ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
+{% if site.gitment %}
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: '{{page.title}}', // 可选。默认为 location.href
+        owner: 'jourdon',
+        repo: 'https://github.com/jourdon/jourdon.github.io',
+        oauth: {
+            client_id: 'defbc7335c79258a793b',
+            client_secret: '7136d7b678cdc23e98f978a3cc12a11178652086',
+        },
+    })
+    gitment.render('container')
 </script>
-<!-- 多说公共JS代码 end -->
 {% endif %}
 
 {% if site.changyan_shortname %}
