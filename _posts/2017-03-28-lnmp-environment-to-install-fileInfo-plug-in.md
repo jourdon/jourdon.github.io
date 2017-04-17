@@ -2,7 +2,7 @@
 layout: post
 title:  "Laravel上传图片报错？你可能没有安装fileinfo插件"
 categories: Laravel
-tags: laravel lnmp
+tags: Laravel lnmp
 author: 大东
 ---
 
