@@ -24,11 +24,14 @@ Coreseek发布了3.2.14版本和4.1版本，其中的3.2.14版本是2010年发�
 1. 下载安装包 http://sphinxsearch.com/downloads/    (目前最新版本是2.2.10)
 
 2.  
+
 ```
-./configure -prefix=/usr/local/sphinx -with-mysql=/usr/local/mysql
-```  
-    (mysql其实不用指定，默认已经支持)          
-    make && make install
+    ./configure -prefix=/usr/local/sphinx -with-mysql=/usr/local/mysql
+    (mysql其实不用指定，默认已经支持)   
+           
+     make && make install
+```
+    
 
 3. 安装完成后，在 /usr/local/sphinx目录下会有4个目录 
 
