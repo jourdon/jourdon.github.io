@@ -143,3 +143,10 @@ connect() to unix:/var/run/php5-fpm.sock failed (2: No such file or directory) w
 fastcgi_pass unix:/run/php/php7.0-fpm.sock;
 ```
 重启`nginx`和`PHP`，搞定了。
+
+`homestead`默认账户密码
+```youtrack
+    ssh vagrant/vagrant
+    mysql  homestead /secret
+            root/secret
+```
