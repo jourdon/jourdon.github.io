@@ -136,13 +136,23 @@ connect() to unix:/var/run/php5-fpm.sock failed (2: No such file or directory) w
     pid = /var/run/php/php7.1-fpm.pid
 
 ```
-修改nginx配置文件，
+修改nginx配置文件，目录在`/etc/nginx/sites-enabled
 ```
  fastcgi_pass unix:/var/run/php5-fpm.sock; 
     //修改为 
 fastcgi_pass unix:/run/php/php7.0-fpm.sock;
 ```
-重启`nginx`和`PHP`，搞定了。
+
+### 添加多站点的坑
+执行命令
+```
+    sudo /vagrant/scripts/serve-laravel.sh api.app  /home/vagrant/html/backApi/public
+    ls /etc/nginx/sites-enabled/ 
+
+```
+可以看到`/etc/nginx/sites-enabled`目录下多出一个配置文件，记得上面的操作改配置文件
+
+重启`nginx`和`PHP`，
 
 `homestead`默认账户密码
 ```youtrack
