@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "PHP语法糖(5.6-7.1)。"
-categories: laravle
-tags: laravel Tp
+categories: PHP
+tags: php函数
 author: 大东
 ---
 
