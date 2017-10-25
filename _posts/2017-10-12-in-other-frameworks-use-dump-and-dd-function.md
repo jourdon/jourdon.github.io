@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "在tp框架中使用composer,并移值laravel框架的DUMP()和DD()函数。"
-categories: laravle
+categories: Laravel
 tags: laravel Tp
 author: 大东
 ---

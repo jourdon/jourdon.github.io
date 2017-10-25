@@ -267,3 +267,5 @@ $_FILES['file']['tmp_name'] 服务器端临时名称
     }
     echo $error;  //抛出异常
 ```
+
+HAPPY ENDING!

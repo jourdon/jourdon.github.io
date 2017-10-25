@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "laravel-homestead 开发环境安装"
-categories: laravel
+categories: Laravel
 tags: laravel homestead
 author: 大东
 ---
