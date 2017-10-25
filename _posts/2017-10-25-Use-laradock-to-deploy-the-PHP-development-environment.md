@@ -2,7 +2,7 @@
 layout: post
 title:  "使用Docker包laradock布署PHP开发环境"
 categories: PHP
-tags: docker laradock
+tags: Docker Laradock
 author: 大东
 ---
 

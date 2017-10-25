@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "使用 Supervisor 管理 Laravel 队列"
-categories: Laravle
-tags: laravel Supervisor queue
+categories: Laravel
+tags: Laravel Supervisor queue
 author: 大东
 ---
 
