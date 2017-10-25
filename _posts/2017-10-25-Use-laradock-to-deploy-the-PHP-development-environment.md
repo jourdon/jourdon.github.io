@@ -148,7 +148,7 @@ author: 大东
 ```  
 Error: Class 'MongoClient' not found
 ```
-这个问题在 `laradock`  的 `issue` 里已经有人遇到过，[地址在这里](https://github.com/laradock/laradock/issues/254），虽然官方没有修复，但是已经有人提出了解决方法，[地址在这里](https://github.com/laradock/laradock/issues/1112),好的，我们来看解决方法,需要更改以下三个文件。
+这个问题在 `laradock`  的 `issue` 里已经有人遇到过，[地址在这里](https://github.com/laradock/laradock/issues/254)，虽然官方没有修复，但是已经有人提出了解决方法，[地址在这里](https://github.com/laradock/laradock/issues/1112),好的，我们来看解决方法,需要更改以下三个文件。
 
 `docker-compose.yml` 文件。
 ``` 
