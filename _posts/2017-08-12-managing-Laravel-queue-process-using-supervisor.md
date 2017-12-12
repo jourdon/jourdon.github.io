@@ -17,6 +17,28 @@ author: 大东
     yum install python-setuptools
     easy_install supervisor
 ```
+如果有如下结果，说明有错误，没有安装成功
+``` 
+    Couldn't find index page for 'meld3' (maybe misspelled?)
+    Scanning index of all packages (this may take a while)
+    Reading http://pypi.python.org/simple/
+    No local packages or download links found for meld3>=0.6.5
+    error: Could not find suitable distribution for Requirement.parse('meld3>=0.6.5')
+```
+去安装 `meld3` 
+``` 
+    wget https://pypi.python.org/packages/0f/5e/3a57c223d8faba2c3c2d69699f7e6cfdd1e5cc31e79cdd0dd48d44580b50/meld3-1.0.1.tar.gz#md5=2f045abe0ae108e3c8343172cffbe21d
+    tar -xf meld3-1.0.1.tar.gz
+    cd meld3-1.0.1
+    python setup.py install
+```
+再去执行 `easy_install supervisor` ，此时的结果显示；
+``` 
+    Processing dependencies for supervisor
+    Finished processing dependencies for supervisor
+```
+安装成功，继续往下吧
+
 ### `Supervisor`的配置#
 
 运行这个命令可以生成一个默认的配置文件：
